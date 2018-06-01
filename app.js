@@ -1,6 +1,6 @@
 import WS from 'ws'
 import EventEmitter from 'eventemitter3'
-import { DDP, RocketChat, ROCKET_SUB_MESSAGES } from './src'
+import { DDP, RocketChat, ROCKET_SUB_MESSAGES } from './lib'
 
 
 const ddp = new DDP({
