@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec npx babel-node -- ./app.js"
+    "start": "npx nodemon --exec npx babel-node -- ./app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "eventemitter3": "^3.1.0",
+    "nodemon": "^1.17.5",
     "ws": "^5.2.0"
   },
   "devDependencies": {
